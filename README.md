@@ -75,23 +75,5 @@ flowchart TD
 ```
 
 
-## Quick Start
-
-1. **Wiring:** Connect sensors and motors according to pin definitions in `include/*.h`. Verify all ground and power lines.
-2. **Build and Upload:**
-
-   ```bash
-   arduino-cli compile --fqbn arduino:avr:uno .
-   arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno .
-   ```
-3. **Deployment:** Place the robot on a track marked with black tape and introduce obstacles. Apply power and observe autonomous operation.
-
-## Future Enhancements
-
-* **PID Control:** Implement closed-loop control for smoother line tracking.
-* **Servo-Mounted Sensor:** Add a servo mechanism for ultrasonic sensor scanning.
-* **Wireless Communication:** Integrate Bluetooth or Wi-Fi module for remote monitoring and control.
-
----
 
 *End of document.*

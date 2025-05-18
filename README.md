@@ -74,6 +74,3 @@ flowchart TD
   AvoidObstacle --> Start
 ```
 
-
-
-*End of document.*
